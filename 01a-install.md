@@ -59,7 +59,7 @@ In the Terminal:
 
 `python3 --version`
 
->> Python 3.6.5
+>> Python 3.6.5 
 
  
 
