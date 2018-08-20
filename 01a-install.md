@@ -51,7 +51,7 @@ However, this is completely optional as Anaconda is an all-in-one package manage
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I installed Python 3 because Python 3 is the recommended version for the Metis bootcamp.
 
 ### Q2. Which Python Version Installed   
 
