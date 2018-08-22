@@ -79,5 +79,6 @@ $ echo 'one two three' | xargs mkdir
 ls
 one two three
 ```
+So here a new directory is created for each instance in echo
  
 
