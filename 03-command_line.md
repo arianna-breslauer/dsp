@@ -20,7 +20,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > * show current working directory path
+    * creating a directory: mkdir + directory name
+    * deleting a directory: rm -r #deletes all the child directories too
+    * creating a file using `touch` command: touch + file name
+    * deleting a file: rm + name of file
+    * renaming a file: mv + old file + new file name
+    * listing hidden files: ls -a
+    * copying a file from one directory to another: cp + directory/file + name of new file
+    * moving up a directory: cd ..
+    * listing all contents of directory in long format: ls -l
+    * copying all files into a directory: cp * directory 
 
 ---
 
@@ -35,7 +45,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls`  #lists the files and directories in current directory
+    `ls -a`  # lists all contents of directory including hidden files and directories
+    `ls -l`  # lists all contents of directory in long format
+    `ls -lh` # lists the contents of a directory in long format with file size in human readable format (e.g. 1K 234M 2G)
+    `ls -lah` # lists the contents of a directory, including hidden files, in long format with file size in human readable format (e.g. 1K 234M 2G)
+    `ls -t`  # lists the files in order of time they were last modified (newest first) instead of alphabetical order
+    `ls -Glp` # lists the contents of a directory in long format without group name, and displays directories with /  
+
 
 ---
 
@@ -43,7 +60,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 'ls -S' # sorts by file size
+    'ls -d' # lists directories only
+    'ls -u # lists files by file access time
+    'ls -m' # lists the names as a comma separated list
+    'ls -R' # lists subdirectories as well
 
 ---
 
@@ -51,7 +72,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs executes the argument, building an execution pipeline from standard input. For example:
+    $ echo 'one two three' | xargs mkdir 
+    ls
+    one two three
 
  
 
