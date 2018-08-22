@@ -71,7 +71,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > xargs executes the argument, building an execution pipeline from standard input. 
+xargs executes the argument, building an execution pipeline from standard input. 
 
 For example:
 ```
