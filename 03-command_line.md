@@ -75,9 +75,9 @@ xargs executes the argument, building an execution pipeline from standard input.
 
 For example:
 ```
-$ echo 'one two three' | xargs mkdir 
+$ echo 'one two three four' | xargs mkdir 
 ls
-one two three
+one two three four
 ```
 So here a new directory is created for each instance in echo
  
