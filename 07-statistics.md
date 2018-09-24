@@ -99,9 +99,9 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 >> p(T|I) = p(male twins | identical twins) = 1/2 as discussed earlier
 
 >> So substituting into Baye's theorem: 
-   p(I|T) = (p(I) * p(T|I)) / p(T) 
-   p(I|T) = (1/300 * 1/2) / 11/3000
-   **p(I|T) = 5/11**
+>> p(I|T) = (p(I) * p(T|I)) / p(T) 
+>> p(I|T) = (1/300 * 1/2) / 11/3000
+>> **p(I|T) = 5/11**
 
 ---
 
