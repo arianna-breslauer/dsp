@@ -17,10 +17,10 @@ randomNums = np.random.random(1000)
 # PMF
 pmf = thinkstats2.Pmf(t)
 thinkplot.Pmf(pmf, linewidth=0.1)
-thinkplot.Config(xlabel='Random number', ylabel='PMF')
+thinkplot.Config(xlabel='Random variate', ylabel='PMF')
 
 # CDF
 cdf = thinkstats2.Cdf(t)
 thinkplot.Cdf(cdf)
-thinkplot.Config(xlabel='Random number', ylabel='CDF')
+thinkplot.Config(xlabel='Random variate', ylabel='CDF')
  ```
