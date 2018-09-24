@@ -108,7 +108,22 @@ The potential pairs of fraternal twins are boy-boy, boy-girl, girl-boy, girl-gir
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+#### Baynesian statistics
+- Models uncertainty by a probability distribution over hypotheses; uses probabilities for both hypotheses and data
+- Depends on the prior and likelihood of observed data
+- One’s ability to make inferences depends on:    
+   - one’s degree of confidence in the chosen prior  
+   - the robustness of the findings to alternate prior distributions
+- More subjective approach - different people may produce different subjective priors and come to different conclusions
+- Increasing use with machine learning, big data etc. 
+
+#### Frequentist statistics 
+- Uses only conditional distributions of data given specific hypotheses; never uses probability of hypotheses
+- Fixed hypothesis, whereby the presumption is that this hypothesis specifying the conditional distribution
+of the data is true and that the observed data is sampled from that distribution
+- Dpends on the likelihood for both observed and unobserved data
+- Less subjective approach - does not depend on a subjective prior that may vary depending on the investigator 
+- Less computationally intensive 
 
 ---
 
